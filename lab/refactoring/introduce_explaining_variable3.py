@@ -10,3 +10,7 @@ def is_cookeding_criteria_satisfied(time, temperature, pressure, desired_state):
     is_well_done = _current_state >= WELL_DONE
     is_medium = _current_state >= MEDIUM
     return (is_well_done and desired_state == 'well-done') or (is_medium and desired_state == 'medium')
+
+
+if __name__ == "__main__":
+    print(is_cookeding_criteria_satisfied(50, 450, 4500, "medium"))
