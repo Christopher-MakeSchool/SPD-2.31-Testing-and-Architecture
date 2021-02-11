@@ -60,7 +60,7 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 ## Exercise  15: 'Remove Control Flag' Technique
 
-- [ ] Study the file '**remove_control_flag**'.py. Use 'remove control flag' technique to improve readability of the code.
+- [X] Study the file '**remove_control_flag**'.py. Use 'remove control flag' technique to improve readability of the code.
 
 ## Exercise  16: 'Replace Nested Conditional with Gaurd Clauses' Technique
 
