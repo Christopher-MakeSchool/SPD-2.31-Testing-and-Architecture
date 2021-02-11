@@ -56,7 +56,7 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 ## Exercise  14: 'Consolidate Duplicate Conditional Fragments' Technique
 
-- [ ] Study the file '**consolidate_duplicate_conditional_fragments.py**'. Use 'consolidate duplicate conditional fragments' technique to improve readability of the code.
+- [X] Study the file '**consolidate_duplicate_conditional_fragments.py**'. Use 'consolidate duplicate conditional fragments' technique to improve readability of the code.
 
 ## Exercise  15: 'Remove Control Flag' Technique
 
