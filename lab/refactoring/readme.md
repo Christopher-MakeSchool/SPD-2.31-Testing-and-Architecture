@@ -50,11 +50,11 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 ### Exercise 11: `Introducing Explaining Variable` Technique
 
-- [ ] Study the file [**introduce_explaining_variable.py**](./introduce_explaining_variable.py). Use `Replace Temp with query` technique to improve readability of the code.
+- [X] Study the file [**introduce_explaining_variable.py**](./introduce_explaining_variable.py). Use `Replace Temp with query` technique to improve readability of the code.
 
 ### Exercise 12: `Decompose Conditional` Technique
 
-- [ ] Study the file [**decompose_conditional2.py**](./decompose_conditional2.py). Use `decompose conditional` technique to improve readability of the code.
+- [X] Study the file [**decompose_conditional2.py**](./decompose_conditional2.py). Use `decompose conditional` technique to improve readability of the code.
 
 ### Exercise  13: `Consolidate Conditional Expression` Technique
 
