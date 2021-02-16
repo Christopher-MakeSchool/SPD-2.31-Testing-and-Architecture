@@ -74,7 +74,7 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 ### Exercise  17: `Decompose Conditional` Technique
 
-- [ ] Study [**decompose_conditional.py**](./decompose_conditional.py) file. Use `decompose conditional` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+- [X] Study [**decompose_conditional.py**](./decompose_conditional.py) file. Use `decompose conditional` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
 
 ### Exercise  18: `Consolidate Duplicate Conditional Fragments` Technique
 
