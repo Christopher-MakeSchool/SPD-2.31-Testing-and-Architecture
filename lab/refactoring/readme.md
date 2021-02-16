@@ -32,11 +32,11 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 ### Exercise 7: `Split Temporary Variable` Technique
 
-- [ ] Study the file [**split_temp_variable.py**](./split_temp_variable.py). Use `split temporary variable` technique to clarify the code (make it easier to understand its intent.)
+- [X] Study the file [**split_temp_variable.py**](./split_temp_variable.py). Use `split temporary variable` technique to clarify the code (make it easier to understand its intent.)
 
 ### Exercise 8: `Remove Assignment to Method Parameter` Technique
 
-- [ ] Study the file [**remove_assignment_to_param.py**](./remove_assignment_to_param.py). Use `remove assignment to method parameter` technique to prevent future mistakes/bugs.
+- [X] Study the file [**remove_assignment_to_param.py**](./remove_assignment_to_param.py). Use `remove assignment to method parameter` technique to prevent future mistakes/bugs.
 
 ### Exercise 9: `Rename Method` Technique
 
