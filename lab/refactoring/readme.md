@@ -44,7 +44,7 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 ### Exercise 10: `Split Temporary Variable` Technique
 
-- [ ] Study the file [**split_temp_variable2.py**](./split_temp_variable2.py). Use `split temporary variable` technique to clarify the code (make it easier to understand its intent.)
+- [X] Study the file [**split_temp_variable2.py**](./split_temp_variable2.py). Use `split temporary variable` technique to clarify the code (make it easier to understand its intent.)
 
 ## Refactoring - Simplifying Conditional Expressions
 
