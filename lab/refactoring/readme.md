@@ -82,7 +82,7 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 ### Exercise 19: `Remove Control Flag` Technique
 
-- [ ] Study [**remove_control_flag2.py**](./remove_control_flag2.py) and [**remove_control_flag3.py**](./remove_control_flag3.py). Use `remove control flag` technique in combination with any other refactoring technique you've learned to improve readability of the code.
+- [X] Study [**remove_control_flag2.py**](./remove_control_flag2.py) and [**remove_control_flag3.py**](./remove_control_flag3.py). Use `remove control flag` technique in combination with any other refactoring technique you've learned to improve readability of the code.
 
 ### Exercise 20: `Replace Nested Conditional With Gaurd Clauses` Technique
 
