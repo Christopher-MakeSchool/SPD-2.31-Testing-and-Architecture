@@ -58,7 +58,7 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 ### Exercise  13: `Consolidate Conditional Expression` Technique
 
-- [ ] Study the file [**consolidate_conditional.py**](./consolidate_conditional.py). Use `consolidate conditional expression` technique to improve readability of the code.
+- [X] Study the file [**consolidate_conditional.py**](./consolidate_conditional.py). Use `consolidate conditional expression` technique to improve readability of the code.
 
 ### Exercise  14: `Consolidate Duplicate Conditional Fragments` Technique
 
