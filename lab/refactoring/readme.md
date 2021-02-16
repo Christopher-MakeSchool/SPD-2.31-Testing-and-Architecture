@@ -95,5 +95,5 @@ In this series of exercises, we practice various refactoring techniques. You may
 Please submit your work to Gradescope.
 
 - [X] Exercises 01 through 6 to [Refactoring - Composing Methods](https://www.gradescope.com/courses/206382/assignments/992928)
-- [ ] Exercise 07 through 10 to [Refactoring - Composing Methods (2)](https://www.gradescope.com/courses/206382/assignments/1007195)
+- [X] Exercise 07 through 10 to [Refactoring - Composing Methods (2)](https://www.gradescope.com/courses/206382/assignments/1007195)
 - [X] Exercise 11 through 20 to [Refactoring - Simplifying Conditional Expressions](https://www.gradescope.com/courses/206382/assignments/1013900)
