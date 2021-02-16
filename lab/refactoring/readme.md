@@ -88,6 +88,32 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 - [X] Study [**replace_nested_conditional_with_gaurd_clauses.py**](./replace_nested_conditional_with_gaurd_clauses.py). Use `replace nested conditional with gaurded clauses` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
 
+## Refactoring - other refactoring
+
+### Exercise 21: `Move Attribute` Technique
+
+- [ ] Study [**move_field2.py**](./move_field2.py). Use `move attribute` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+
+### Exercise 22: `Extract Class` Technique
+
+- [ ] Study [**extract_class.py**](./extract_class.py). Use `extract class` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+
+### Exercise 23: `Extract Class` Technique
+
+- [ ] Study [**extract_class2.py**](./extract_class2.py). Use `extract class` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+
+### Exercise 24: `Extract Class` Technique
+
+- [ ] Study [**extract_class3.py**](./extract_class3.py). Use `extract class` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+
+### Exercise 25: `Replace Magic Number with Symbolic Constant` Technique
+
+- [ ] Study [**replace_magic_numbers_with_named_constants.py**](./replace_magic_numbers_with_named_constants.py). Use `replace magic number with symbolic constant` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+
+### Exercise 26: `Extract Superclass` Technique
+
+- [ ] Study [**extract_superclass2.py**](./extract_superclass2.py). Use `extract class` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+
 ---
 
 ## Where to Submit Your Answer
@@ -97,3 +123,4 @@ Please submit your work to Gradescope.
 - [X] Exercises 01 through 6 to [Refactoring - Composing Methods](https://www.gradescope.com/courses/206382/assignments/992928)
 - [X] Exercise 07 through 10 to [Refactoring - Composing Methods (2)](https://www.gradescope.com/courses/206382/assignments/1007195)
 - [X] Exercise 11 through 20 to [Refactoring - Simplifying Conditional Expressions](https://www.gradescope.com/courses/206382/assignments/1013900)
+- [ ] Exercise 21 through 26 at [Refactoring - other refactoring](https://www.gradescope.com/courses/206382/assignments/1025910)
