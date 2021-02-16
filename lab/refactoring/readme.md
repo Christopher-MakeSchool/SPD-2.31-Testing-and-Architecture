@@ -86,7 +86,7 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 ### Exercise 20: `Replace Nested Conditional With Gaurd Clauses` Technique
 
-- [ ] Study [**replace_nested_conditional_with_gaurd_clauses.py**](./replace_nested_conditional_with_gaurd_clauses.py). Use `replace nested conditional with gaurded clauses` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+- [X] Study [**replace_nested_conditional_with_gaurd_clauses.py**](./replace_nested_conditional_with_gaurd_clauses.py). Use `replace nested conditional with gaurded clauses` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
 
 ---
 
