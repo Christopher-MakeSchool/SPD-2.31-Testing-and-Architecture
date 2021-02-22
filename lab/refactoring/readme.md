@@ -112,7 +112,7 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 ### Exercise 26: `Extract Superclass` Technique
 
-- [ ] Study [**extract_superclass2.py**](Refactoring_Other_Refactoring/extract_superclass2.py). Use `extract class` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+- [X] Study [**extract_superclass2.py**](Refactoring_Other_Refactoring/extract_superclass2.py). Use `extract class` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
 
 ---
 
