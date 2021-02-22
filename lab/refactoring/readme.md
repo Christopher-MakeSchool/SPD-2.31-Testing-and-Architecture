@@ -104,7 +104,7 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 ### Exercise 24: `Extract Class` Technique
 
-- [ ] Study [**extract_class3.py**](Refactoring_Other_Refactoring/extract_class3.py). Use `extract class` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+- [X] Study [**extract_class3.py**](Refactoring_Other_Refactoring/extract_class3.py). Use `extract class` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
 
 ### Exercise 25: `Replace Magic Number with Symbolic Constant` Technique
 
