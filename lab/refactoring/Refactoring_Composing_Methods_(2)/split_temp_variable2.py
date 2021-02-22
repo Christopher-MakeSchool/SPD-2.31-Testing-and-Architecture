@@ -2,7 +2,7 @@
 # Split temp variable
 
 def save_into_db(info):
-    print("saved into databse")
+    print("Saved into Databse")
 
 
 if __name__ == "__main__":
