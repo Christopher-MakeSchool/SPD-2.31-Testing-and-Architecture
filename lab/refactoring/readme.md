@@ -92,7 +92,7 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 ### Exercise 21: `Move Attribute` Technique
 
-- [ ] Study [**move_field2.py**](Refactoring_Other_Refactoring/move_field2.py). Use `move attribute` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+- [X] Study [**move_field2.py**](Refactoring_Other_Refactoring/move_field2.py). Use `move attribute` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
 
 ### Exercise 22: `Extract Class` Technique
 
