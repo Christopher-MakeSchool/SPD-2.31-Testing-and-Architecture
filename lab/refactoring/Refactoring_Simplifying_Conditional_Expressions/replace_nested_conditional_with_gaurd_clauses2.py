@@ -9,5 +9,6 @@ def get_adjusted_capital(capital, rate, duration, income):
     return (income / duration) * ADJ_FACTOR if(rate > 0 and duration > 0) else 0
 
 
-adjusted_capital = get_adjusted_capital(50000, 4, 10, 10000)
-print(adjusted_capital)
+if __name__ == "__main__":
+    adjusted_capital = get_adjusted_capital(50000, 4, 10, 10000)
+    print(adjusted_capital)

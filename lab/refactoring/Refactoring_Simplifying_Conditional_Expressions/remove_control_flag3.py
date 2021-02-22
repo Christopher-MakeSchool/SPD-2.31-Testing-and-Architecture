@@ -12,4 +12,6 @@ def backdoor_srcmethod():
         else:
             print('doing other stuff.') 
 
-backdoor_srcmethod()
+
+if __name__ == "__main__":
+    backdoor_srcmethod()
