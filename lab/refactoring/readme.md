@@ -108,7 +108,7 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 ### Exercise 25: `Replace Magic Number with Symbolic Constant` Technique
 
-- [ ] Study [**replace_magic_numbers_with_named_constants.py**](Refactoring_Other_Refactoring/replace_magic_numbers_with_named_constants.py). Use `replace magic number with symbolic constant` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+- [X] Study [**replace_magic_numbers_with_named_constants.py**](Refactoring_Other_Refactoring/replace_magic_numbers_with_named_constants.py). Use `replace magic number with symbolic constant` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
 
 ### Exercise 26: `Extract Superclass` Technique
 
