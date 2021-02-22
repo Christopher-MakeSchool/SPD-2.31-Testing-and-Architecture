@@ -114,6 +114,10 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 - [X] Study [**extract_superclass2.py**](Refactoring_Other_Refactoring/extract_superclass2.py). Use `extract class` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
 
+### Exercise 27: `Extract Superclass` Technique
+
+- [X] Study [**extract_superclass.py**](Refactoring_Other_Refactoring/extract_superclass.py). Use `extract class` technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+
 ---
 
 ## Where to Submit Your Answer
@@ -123,4 +127,4 @@ Please submit your work to Gradescope.
 - [X] Exercises 01 through 6 to [Refactoring - Composing Methods](https://www.gradescope.com/courses/206382/assignments/992928)
 - [X] Exercises 07 through 10 to [Refactoring - Composing Methods (2)](https://www.gradescope.com/courses/206382/assignments/1007195)
 - [X] Exercises 11 through 20 to [Refactoring - Simplifying Conditional Expressions](https://www.gradescope.com/courses/206382/assignments/1013900)
-- [ ] Exercises 21 through 26 at [Refactoring - other refactoring](https://www.gradescope.com/courses/206382/assignments/1025910)
+- [X] Exercises 21 through 26 at [Refactoring - other refactoring](https://www.gradescope.com/courses/206382/assignments/1025910)
