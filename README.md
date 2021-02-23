@@ -25,48 +25,26 @@ Students by the end of the course will be able to ...
 1. Design and implement code refactoring techniques to improve readability.
 1. Apply debugging and unit-testing best practices to improve quality assurance.
 
-## Schedule
+## Assignment **Schedule**
 
 **Course Dates:** Thu, Jan 21 – Thu, March 4, 2021 (7 weeks)<br>
 **Class Times:** Tue and Thu at 9:30am –12:15pm (13 class sessions)
 
-<<<<<<< HEAD
-| Class |       Date     |                 Topics                  |
-|:-----:|:--------------:|:---------------------------------------:|
-|   1   |  Thu, Jan 21   | [Debugging Steps](https://docs.google.com/presentation/d/1gHNAh4z_IFsW9lQbBWDtULEDxX7YCjgh9U4NJAivt00/edit?usp=sharing)                    |
-|   2   |  Tue, Jan 26   | [Debugging Techniques](https://docs.google.com/presentation/d/1JFOS4z4hhejgyR7_jBDGOFBywJrqik1Bb18c_sugsDc/edit?usp=sharing)               |
-|   3   |  Thu, Jan 28   | [Using a Debugger](https://docs.google.com/presentation/d/1Lf1UfOtA02nUmL53Gf8CJwqEpaVXicpvSOa-mTuh8rg/edit?usp=sharing)                   |
-|   4   |  Tue, Feb 2    | [Refactoring - PEP 8](https://docs.google.com/presentation/d/1d-uhUf_7v4PfbMFO_1sFcaRC5koy-hpoPCtq3Oku4ns/edit?usp=sharing)                |
-|   5   |  Thu, Feb 4    | [Refactoring - Composing Methods](https://docs.google.com/presentation/d/1vurOh1MhSBfVDTvbFwbgTEEPOgiC7M5pIUt-jCyHIj4/edit?usp=sharing)    |
-|   6   |  Tue, Feb 9    | [Refactoring -  Composing Methods 2](https://docs.google.com/presentation/d/1a6NUs6GtLyf4FxIGTFwc_0nCiwDkwPMawY0BtIj1ND8/edit?usp=sharing) |
-|   7   |  Tue, Feb 11   | [Refactoring - Simplifying Conditional Expressions](https://docs.google.com/presentation/d/1cJyY00m2iAOq1oq_hZCt3_3iNhbu2TqZvEcf3aF4jG4/edit?usp=sharing)   |
-|   8   |  Tue, Feb 16   | Refactoring - Other Refactoring Techniques                                                                                                 |
-|   9   |  Thu, Feb 18   | Refactoring - Lab                                                                                                                          |
-|  10   |  Tue, Feb 23   | Unit Testing 1                                                                                                                             |
-|  11   |  Thu, Feb 25   | Unit Testing 2                                                                                                                             |
-|  12   |  Tue, March 2  | Architecture - Design Patterns 1                                                                                                           |
-|  13   |  Thu, March 4  | Architecture - Design Patterns 2                                                                                                           |
-
-## Assignment **Schedule**
-=======
-| Class |          Date          |                 Topics                  |
-|:-----:|:----------------------:|:---------------------------------------:|
-|  1 |  Thu, Jan 21                         | [Debugging Steps](https://docs.google.com/presentation/d/1gHNAh4z_IFsW9lQbBWDtULEDxX7YCjgh9U4NJAivt00/edit?usp=sharing) |
-|  2 |  Tue, Jan 26                      | [Debugging Techniques](https://docs.google.com/presentation/d/1JFOS4z4hhejgyR7_jBDGOFBywJrqik1Bb18c_sugsDc/edit?usp=sharing) |
-|  3 |  Thu, Jan 28                         | [Using a Debugger](https://docs.google.com/presentation/d/1Lf1UfOtA02nUmL53Gf8CJwqEpaVXicpvSOa-mTuh8rg/edit?usp=sharing) |
-|  4 |  Tue, Feb 2                     | [Refactoring - PEP 8](https://docs.google.com/presentation/d/1d-uhUf_7v4PfbMFO_1sFcaRC5koy-hpoPCtq3Oku4ns/edit?usp=sharing) |
-|  5 |  Thu, Feb 4                        | [Refactoring - Composing Methods](https://docs.google.com/presentation/d/1vurOh1MhSBfVDTvbFwbgTEEPOgiC7M5pIUt-jCyHIj4/edit?usp=sharing) |
-|  6 |  Tue, Feb 9                     |  [Refactoring -  Composing Methods 2](https://docs.google.com/presentation/d/1a6NUs6GtLyf4FxIGTFwc_0nCiwDkwPMawY0BtIj1ND8/edit?usp=sharing)  |
-|  7 |  Tue, Feb 11                     |  [Refactoring - Simplifying Conditional Expressions](https://docs.google.com/presentation/d/1cJyY00m2iAOq1oq_hZCt3_3iNhbu2TqZvEcf3aF4jG4/edit?usp=sharing) |              |
-|  8 |  Tue, Feb 16                     | [Refactoring - Other Refactoring Techniques](https://docs.google.com/presentation/d/1iHNX9A0Zzi_cjBn_dL1A-7kzB3qO6KbaUXQ9B3IaWT0/edit?usp=sharing) |
-|  9 |  Thu, Feb 18                      | Refactoring  - Lab|
-| 10 |  Tue, Feb 23                     | [Unit Testing 1](https://github.com/Make-School-Courses/SPD-2.31-Testing-and-Architecture/tree/master/lab/pytest) |
-| 11 |  Thu, Feb 25                        | Unit Testing 2|
-| 12 |  Tue, March 2                        | Architecture - Design Patterns 1|
-| 13 |  Thu, March 4                           | Architecture - Design Patterns 2|
-
-## Assignment Schedule
->>>>>>> 409ed65b47dd5f988c5b34699c349d11b6b6e871
+| Class |  Date   |                 Topics                  |
+|:-----:|:-------:|:---------------------------------------:|
+| 1| Thu, Jan 21  | [Debugging Steps](https://docs.google.com/presentation/d/1gHNAh4z_IFsW9lQbBWDtULEDxX7YCjgh9U4NJAivt00/edit?usp=sharing)                                    |
+| 2| Tue, Jan 26  | [Debugging Techniques](https://docs.google.com/presentation/d/1JFOS4z4hhejgyR7_jBDGOFBywJrqik1Bb18c_sugsDc/edit?usp=sharing)                               |
+| 3| Thu, Jan 28  | [Using a Debugger](https://docs.google.com/presentation/d/1Lf1UfOtA02nUmL53Gf8CJwqEpaVXicpvSOa-mTuh8rg/edit?usp=sharing)                                   |
+| 4| Tue, Feb 2   | [Refactoring - PEP 8](https://docs.google.com/presentation/d/1d-uhUf_7v4PfbMFO_1sFcaRC5koy-hpoPCtq3Oku4ns/edit?usp=sharing)                                |
+| 5| Thu, Feb 4   | [Refactoring - Composing Methods](https://docs.google.com/presentation/d/1vurOh1MhSBfVDTvbFwbgTEEPOgiC7M5pIUt-jCyHIj4/edit?usp=sharing)                    |
+| 6| Tue, Feb 9   | [Refactoring -  Composing Methods 2](https://docs.google.com/presentation/d/1a6NUs6GtLyf4FxIGTFwc_0nCiwDkwPMawY0BtIj1ND8/edit?usp=sharing)                 |
+| 7| Tue, Feb 11  | [Refactoring - Simplifying Conditional Expressions](https://docs.google.com/presentation/d/1cJyY00m2iAOq1oq_hZCt3_3iNhbu2TqZvEcf3aF4jG4/edit?usp=sharing)  |
+| 8| Tue, Feb 16  | [Refactoring - Other Refactoring Techniques](https://docs.google.com/presentation/d/1iHNX9A0Zzi_cjBn_dL1A-7kzB3qO6KbaUXQ9B3IaWT0/edit?usp=sharing)         |
+| 9| Thu, Feb 18  | Refactoring - Lab                                                                                                                                          |
+|10| Tue, Feb 23  | [Unit Testing 1](https://github.com/Make-School-Courses/SPD-2.31-Testing-and-Architecture/tree/master/lab/pytest)                                          |
+|11| Thu, Feb 25  | Unit Testing 2                                                                                                                                             |
+|12| Tue, March 2 | Architecture - Design Patterns 1                                                                                                                           |
+|13| Thu, March 4 | Architecture - Design Patterns 2                                                                                                                           |
 
 We will be using Gradescope, which allows us to provide fast and accurate feedback on your work. All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope.
 
@@ -77,13 +55,13 @@ Your Gradescope login is your Make School email, and your password can be change
 The assingments cover debugging, refactoring, unit testing and architecture topics. The following is the list of assignment titles:
 
 1. Debugging: Gathering info and writing assumptions
-1. Refactoring - PEP 8: Improving Code Readibility Using PEP 8. The assingments cover indentation, whitespaces, naming convention and docstrings.
-1. Refactoring - Composing Methods. The assignments cover various techniques including extract method, replace temp with query, introducing explaining variable, split temp variable and 'remove assingment to method parameters'.
-1. Refactoring - Moving Features and Organizing Data. The assingments include techniques such as extract class, Replace Magic numbers with constants.
-1. Refactoring - Simplifying Conditional Expressions. The assingments include techniques such as decompose conditional, consolidate conditionals, consolidate duplicates, remove control flags and Replace Nested Conditional with Guard Clauses.
-1. Refactoring - Other techniques. The assignment includes extract superclass technique.
-1. Unit Test 1 and Unit Test 2. The assingments include writing unit tests for a tic-toc-toe program.
-1. Architecture 1 and 2. The assingments include refactoring a program to use the observer pattern and finite state machine pattern.
+2. Refactoring - PEP 8: Improving Code Readibility Using PEP 8. The assingments cover indentation, whitespaces, naming convention and docstrings.
+3. Refactoring - Composing Methods. The assignments cover various techniques including extract method, replace temp with query, introducing explaining variable, split temp variable and 'remove assingment to method parameters'.
+4. Refactoring - Moving Features and Organizing Data. The assingments include techniques such as extract class, Replace Magic numbers with constants.
+5. Refactoring - Simplifying Conditional Expressions. The assingments include techniques such as decompose conditional, consolidate conditionals, consolidate duplicates, remove control flags and Replace Nested Conditional with Guard Clauses.
+6. Refactoring - Other techniques. The assignment includes extract superclass technique.
+7. Unit Test 1 and Unit Test 2. The assingments include writing unit tests for a tic-toc-toe program.
+8. Architecture 1 and 2. The assingments include refactoring a program to use the observer pattern and finite state machine pattern.
 
 Please refer to [refactoring tutorial and exercises](https://github.com/Make-School-Courses/SPD-2.31-Testing-and-Architecture/tree/master/lab/refactoring) and [sample-exercises.md](sample-exercises.md) for details.
 For assingments due dates please refer to Gradescope. As a rule of thumb, the due date of an assignment is one to two weeks after its corresponding lesson is taught.
