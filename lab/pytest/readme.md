@@ -118,7 +118,7 @@ return math.log(carbon_14_ratio) / DECAY_CONSTANT * T_HALF
 # this special case.
 ```
 
-## [Exercise 3](exercise_3.py): Calculate Grade Statistics (to be submitted to gradescope)
+## [Exercise 3](exercise_3.py) & [Test](test_exercise_3.py): Calculate Grade Statistics (to be submitted to gradescope)
 
 Write a unit test for ```calculate_stat()``` function.
 
