@@ -167,7 +167,7 @@ display_grade_stat()
 
 ```
 
-## [Exercise 4](exercise_4.py): Extract Position (to be submitted to gradescope)
+## [Exercise 4](exercise_4.py) & [Test](test_exercise_4.py): Extract Position (to be submitted to gradescope)
 
 Write a unit test for ```extract_position()``` function.
 
