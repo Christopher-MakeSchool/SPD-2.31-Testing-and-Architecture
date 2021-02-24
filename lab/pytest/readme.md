@@ -89,7 +89,7 @@ def test_get_average_empty_list():
     assert math.isnan(get_average([]))
 ```
 
-## [Exercise 2](exercise_2.py): Carbon 14 Dating (to be submitted to gradescope)
+## [Exercise 2](exercise_2.py) & [Test](test_exercise_2.py): Carbon 14 Dating (to be submitted to gradescope)
 
 Consider the following function that calculates the age of fossile: \
 Read the TODO and implement the necessary changes and unit tests. \
