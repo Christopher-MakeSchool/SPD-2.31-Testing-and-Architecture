@@ -1,0 +1,223 @@
+Welcome to Tic Tac Toe!
+Do you want to be X or O?
+X
+The computer will go first.
+   |   |
+   |   | O
+   |   |
+-----------
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+   |   |  
+   |   |
+What is your next move? (1-9)
+1
+   |   |
+ O |   | O
+   |   |
+-----------
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+ X |   |  
+   |   |
+What is your next move? (1-9)
+8
+   |   |
+ O | X | O
+   |   |
+-----------
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+ X |   | O
+   |   |
+What is your next move? (1-9)
+6
+   |   |
+ O | X | O
+   |   |
+-----------
+   |   |
+   | O | X
+   |   |
+-----------
+   |   |
+ X |   | O
+   |   |
+The computer has beaten you! You lose.
+Do you want to play again? (yes or no)
+yes
+Do you want to be X or O?
+1
+Do you want to be X or O?
+2
+Do you want to be X or O?
+3
+Do you want to be X or O?
+4
+Do you want to be X or O?
+q
+Do you want to be X or O?
+w
+Do you want to be X or O?
+e
+Do you want to be X or O?
+a
+Do you want to be X or O?
+o
+The player will go first.
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+   |   |  
+   |   |
+What is your next move? (1-9)
+1
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+ O |   | X
+   |   |
+What is your next move? (1-9)
+7
+   |   |
+ O |   |  
+   |   |
+-----------
+   |   |
+ X |   |  
+   |   |
+-----------
+   |   |
+ O |   | X
+   |   |
+What is your next move? (1-9)
+
+What is your next move? (1-9)
+9
+   |   |
+ O |   | O
+   |   |
+-----------
+   |   |
+ X | X |  
+   |   |
+-----------
+   |   |
+ O |   | X
+   |   |
+What is your next move? (1-9)
+8
+   |   |
+ O | O | O
+   |   |
+-----------
+   |   |
+ X | X |  
+   |   |
+-----------
+   |   |
+ O |   | X
+   |   |
+Hooray! You have won the game!
+Do you want to play again? (yes or no)
+y
+Do you want to be X or O?
+O
+The computer will go first.
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+ X |   |  
+   |   |
+What is your next move? (1-9)
+1
+What is your next move? (1-9)
+a
+What is your next move? (1-9)
+b
+What is your next move? (1-9)
+e
+What is your next move? (1-9)
+"1"
+What is your next move? (1-9)
+5
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+   | O |  
+   |   |
+-----------
+   |   |
+ X |   | X
+   |   |
+What is your next move? (1-9)
+2
+   |   |
+   | X |  
+   |   |
+-----------
+   |   |
+   | O |  
+   |   |
+-----------
+   |   |
+ X | O | X
+   |   |
+What is your next move? (1-9)
+9
+   |   |
+ X | X | O
+   |   |
+-----------
+   |   |
+   | O |  
+   |   |
+-----------
+   |   |
+ X | O | X
+   |   |
+What is your next move? (1-9)
+4
+   |   |
+ X | X | O
+   |   |
+-----------
+   |   |
+ O | O | X
+   |   |
+-----------
+   |   |
+ X | O | X
+   |   |
+The game is a tie!
+Do you want to play again? (yes or no)
+n
