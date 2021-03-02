@@ -13,7 +13,7 @@ Welcome to the final exam of SPD 2.31. Please consider the followings:
 
 ## Exam
 
-For the final exam, we are going to improve the code quality (readability/modularity, etc) of a tic-toc-toe game. Please study the script **[tic_toc_toe_messy.py](./tic_toc_toe_messy.py)** and make yourself familiar with it. Then:
+For the final exam, we are going to improve the code quality (readability/modularity, etc) of a tic-tac-toe game. Please study the script **[tic_tac_toe_messy.py](tic_tac_toe_messy.py)** and make yourself familiar with it. Then:
 
 1. Find all **TODO** items and see whether you can improve the code. In most cases (if not all), you can make them more readable/modular or pythonic!
 2. Add/fix function's docstrings (use """ insted of # for function's header comments)
