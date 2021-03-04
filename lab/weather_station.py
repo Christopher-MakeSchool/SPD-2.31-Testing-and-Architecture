@@ -1,3 +1,8 @@
+# Resources
+# https://www.geeksforgeeks.org/observer-method-python-design-patterns/
+# https://docs.google.com/document/d/1jyrxxQyrVxBG9S_hXYI69ytUMdxQdApyM6MO2CwvYj4/edit
+
+
 class Subject:
     """Represents what is being observed"""
 
@@ -5,39 +10,34 @@ class Subject:
         """create an empty observer list"""
         self._observers = []
 
-    # This method is called to notify all observers
-    # when the Subject's state (measurements) has changed.
-    def notify(self, modifier=None):
+    def notify(self, measurements=None):
         """Alert the observers"""
-        # We notify the observers when we get updated measurements
-        # from the Weather Station.
+        # We notify the observers when we get updated measurements from the Weather Station.
         for observer in self._observers:
-            if modifier != observer:
-                observer.update(self)
+            if measurements != observer:
+                observer.update(measurements)
 
     # Both of the following two methods take an observer as an argument;
     # That is, the observer to be registered or removed.
+    # In our case CurrentConditionsDisplay, StatisticsDisplay & ForecastDisplay.
     def attach(self, observer):
         """If the observer is not in the list, append it into the list"""
-        # When an observer registers, we just
-        # add it to the end of the list.
+        # When an observer registers, we just add it to the end of the list. 
         if observer not in self._observers:
             self._observers.append(observer)
 
     def detach(self, observer):
         """Remove the observer from the observer list"""
-        # When an observer wants to un-register,
-        # we just take it off the list.
+        # When an observer wants to un-register, we just take it off the list.
         try:
             self._observers.remove(observer)
         except ValueError:
             pass
 
-
 class WeatherData(Subject):
-    """monitor the object"""
+    """Class/Object to be monitored and observed"""
 
-    def __init__(self, name='', temperature=0, humidity=0, pressure=0):
+    def __init__(self, name='WeatherData', temperature=0, humidity=0, pressure=0):
         Subject.__init__(self)
         self.name = name
         self._temperature = temperature
@@ -75,8 +75,7 @@ class WeatherData(Subject):
         self._pressure = value
         self.notify()
 
-    @measurements.setter
-    def measurements(self, temperature, humidity, pressure):
+    def setMeasurements(self, temperature, humidity, pressure):
         self._temperature = temperature
         self._humidity = humidity
         self._pressure = pressure
@@ -84,28 +83,31 @@ class WeatherData(Subject):
 
 
 class Observer:
-    def __init__(self, name='', temperature=0, humidity=0, pressure=0):
+    def __init__(self, name='Default-Observer-Interface'):
         self.name = name
-        self.temerature = temperature
-        self.humidity = humidity
-        self.pressure = pressure
+
+    def update(self, measurements):
+        print("Updated: \n", self.display(), "with: ", measurements)
 
     def display(self):
-        print("I am observing %s", self.name)
+        print("Observer: ", self.name)
 
-    def update(self):
-        self.temerature = temperature
-        self.humidity = humidity
-        self.pressure = pressure
-        self.display()
 
 
 class CurrentConditionsDisplay(Observer):
     """Updates the CurrentConditionsDisplay viewer"""
 
     # The CurrentConditionsDisplay class should keep track of the temperature/humidity/pressure measurements and display them.
-    def __init__(self, name='CurrentConditionsDisplay', temperature=0, humidity=0, pressure=0):
-        Observer.__init__(self)
+    def __init__(self, name='CurrentConditionsDisplay', subject=None):
+        Observer.__init__(self, name)
+        self._subject = subject
+
+    def update(self, measurements):
+        self.display()
+    #     self._temperature = measurements[0]
+    #     self._humidity = measurements[1]
+    #     self._pressure = measurements[2]
+    #     self.notify()
 
     def display(self, subject):
         print("Current Conditions For %s", subject.name)
@@ -154,6 +156,8 @@ class StatisticsDisplay(Observer):
               self.pressure_min, self.pressure_average, self.pressure_max)
 
 # TODO: Implement ForecastDisplay Class.
+
+
 class ForecastDisplay(Observer):
     """Updates the ForecastDisplay viewer"""
 
@@ -163,7 +167,7 @@ class ForecastDisplay(Observer):
     # forcast_humadity = humidity - 0.9 * humidity
     # forcast_pressure = pressure + 0.1 * temperature - 0.21 * pressure
 
-    def update(self, subject):
+    def update(self):
         print('OctalViewer: Subject' + str(subject.name) +
               'has data '+str(oct(subject.data)))
 
@@ -171,28 +175,30 @@ class ForecastDisplay(Observer):
 """main function"""
 if __name__ == "__main__":
     """provide the data"""
-    # TODO: Create two objects from StatisticsDisplay class and ForecastDisplay class.
-    obj1 = WeatherData('Data 1')
-    obj2 = WeatherData('Data 2')
+    WeatherStation = WeatherData('Data 1')
+    print(WeatherStation.measurements)
 
     view1 = CurrentConditionsDisplay()
-    view2 = StatisticsDisplay()
-    view3 = ForecastDisplay()
+    WeatherStation.attach(view1)
+    print(WeatherStation.measurements)
+
+    WeatherStation.setMeasurements(30, 85, 60.8)
+    print(WeatherStation.measurements)
+
+    # TODO: Create Two Objects A StatisticsDisplay Class & A ForecastDisplay Class.
+    # view2 = StatisticsDisplay()
+    # view3 = ForecastDisplay()
 
     # TODO: Register them to the concerete instance of the Subject class so the they get the 'measurements' updates.
-    obj1.attach(view1)
-    obj1.attach(view2)
-    obj1.attach(view3)
-    obj1.measurements = 80, 65, 30.4
-    # obj1.measurements = 80, 65, 30.4
-    # un-register the observer
-    obj1.removeObserver(current_display)
-    obj1.measurements(120, 100, 1000)
+    # WeatherStation.attach(view2)
+    # WeatherStation.attach(view3)
 
-    obj2.attach(view1)
-    obj2.attach(view2)
-    obj2.attach(view3)
+    # TODO: Test our Statistics & Forecast Display by Adding/Setting the Messurement Vaules
+    # WeatherStation.setMeasurements(80, 65, 30.4)
+    # print(WeatherStation.measurements)
 
-    obj1.measurements(80, 65, 30.4)
-    # obj1.measurements = 80, 65, 30.4
-    # obj2.measurements = 80, 65, 30.4
+    # TODO: Un-Register the CurrentConditionsDisplay observer & Test our subscription tracking
+    # WeatherStation.removeObserver(view1)
+    # WeatherStation.setMeasurements(120, 100, 1000)
+
+    # WeatherStation.measurements = 80, 65, 30.4
