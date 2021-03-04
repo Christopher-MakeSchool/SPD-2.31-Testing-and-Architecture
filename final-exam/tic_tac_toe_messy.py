@@ -143,58 +143,45 @@ def isBoardFull(board):
             return False
     return True
 
+def playGame():
+    number_of_index = 10
+    while True:
+        # Reset the board
+        theBoard = [' '] * number_of_index
+        playerLetter, computerLetter = inputPlayerLetter()
+        turn = whoGoesFirst()
+        print('The ' + turn + ' will go first.')
 
-print('Welcome to Tic Tac Toe!')
-
-# TODO: The following mega code block is a huge hairy monster. Break it down 
-# into smaller methods. Use TODO s and the comment above each section as a guide 
-# for refactoring.
-
-while True:
-    # Reset the board
-    theBoard = [' '] * 10 # TODO: Refactor the magic number in this line (and all of the occurrences of 10 thare are conceptually the same.)
-    playerLetter, computerLetter = inputPlayerLetter()
-    turn = whoGoesFirst()
-    print('The ' + turn + ' will go first.')
-    gameIsPlaying = True # TODO: Study how this variable is used. Does it ring a bell? (which refactoring method?) 
-                         #       See whether you can get rid of this 'flag' variable. If so, remove it.
-
-    while gameIsPlaying: # TODO: Usually (not always), loops (or their content) are good candidates to be extracted into their own function.
-                         #       Use a meaningful name for the function you choose.
-        if turn == 'player':
-            # Player’s turn.
-            drawBoard(theBoard)
-            move = getPlayerMove(theBoard)
-            makeMove(theBoard, playerLetter, move)
-
-            if isWinner(theBoard, playerLetter):
+        while True:
+            if isBoardFull(theBoard):
                 drawBoard(theBoard)
-                print('Hooray! You have won the game!')
-                gameIsPlaying = False
-            else:  # TODO: is this 'else' necessary?
-                if isBoardFull(theBoard):
-                    drawBoard(theBoard)
-                    print('The game is a tie!')
-                    break
-                else:  # TODO: Is this 'else' necessary?
-                    turn = 'computer'
+                print('The game is a tie!')
+                break
 
-        else:
-            # Computer’s turn.
-            move = getComputerMove(theBoard, computerLetter)
-            makeMove(theBoard, computerLetter, move)
-
-            if isWinner(theBoard, computerLetter):
+            if turn == 'player':
+                # Player’s turn.
+                move = getPlayerMove(theBoard)
+                makeMove(theBoard, playerLetter, move)
+                if isWinner(theBoard, playerLetter):
+                    print('Hooray! You have won the game!')
                 drawBoard(theBoard)
-                print('The computer has beaten you! You lose.')
-                gameIsPlaying = False
-            else:     # TODO: is this 'else' necessary?
-                if isBoardFull(theBoard):
-                    drawBoard(theBoard)
-                    print('The game is a tie!')
-                    break
-                else: # TODO: Is this 'else' necessary?
-                    turn = 'player'
+                turn = 'computer'
 
-    if not playAgain():
-        break
+            else:
+                # Computer’s turn.
+                move = getComputerMove(theBoard, computerLetter)
+                makeMove(theBoard, computerLetter, move)
+                if isWinner(theBoard, computerLetter):
+                    print('The computer has beaten you! You lose.')
+                drawBoard(theBoard)
+                turn = 'player'
+
+            print("\n" + turn.capitalize() + " will go next")
+
+        if not playAgain():
+            break
+
+
+if __name__ == "__main__":
+    print('Welcome to Tic Tac Toe!')
+    playGame()
