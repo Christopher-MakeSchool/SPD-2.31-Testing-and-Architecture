@@ -80,15 +80,9 @@ def chooseRandomMoveFromList(board, movesList):
     Returns a valid move from the passed list on the passed board. \n
     Returns None if there is no valid move.
     """
-    possibleMoves = []
+    possibleMoves = [possibleMoves.append(i) for i in movesList if isSpaceFree(board, i)]
 
-    for i in movesList:
-        if isSpaceFree(board, i):
-            possibleMoves.append(i)
-
-    if len(possibleMoves) != 0:
-        return random.choice(possibleMoves)
-    return None
+    return None if len(possibleMoves) == 0 else random.choice(possibleMoves)
 
 
 def getComputerMove(board):

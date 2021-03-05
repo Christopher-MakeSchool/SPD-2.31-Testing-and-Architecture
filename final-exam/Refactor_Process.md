@@ -99,7 +99,7 @@ Continuing our accent back to the top of this program, next we will
    2. After adjusting these lets run the progam again to test our changes, using the same steps from before, Log any errors below, Remember to link to support or solutions.
 4. Git Comit: `ga .;gcsmg "[Refactor]: Move Functions Lines 82-137"`
 
-## Refactor 3: Board Functions Lines 12-26, 69-80, & 139-144
+## Refactor 2: Board Functions Lines 12-26, 69-80, & 139-144
 
 Almost finished in our refactoring journey, lets run through and modify any of the TODO(s) that affact the boards functionality
 
@@ -114,7 +114,7 @@ Almost finished in our refactoring journey, lets run through and modify any of t
    2. After adjusting these lets run the progam again to test our changes, using the same steps from before, Log any errors below, Remember to link to support or solutions.
 4. Git Comit: `ga .;gcsmg "[Refactor]: Board Functions Lines 12-26, 69-80, & 139-144"`
 
-## Refactor 3: Play Functions Lines 28-67
+## Refactor 2: Play Functions Lines 28-67
 
 Rounding off on the remaing functions,
 
@@ -135,7 +135,7 @@ Rounding off on the remaing functions,
    2. After adjusting these lets run the progam again to test our changes, using the same steps from before, Log any errors below, Remember to link to support or solutions.
 6. Git Comit: `ga .;gcsmg "[Refactor]: Play Functions Lines 28-67"`
 
-## Refactor 4: Add/Fix (New) Function Docstrings
+## Refactor 2: Add/Fix (New) Function Docstrings
 
 - Remember to Annotate the Dockstrings using """Function Name... """ insted of #
 - Git Comit: `ga .;gcsmg "[Refactor]: Add/Fix (New) Function Docstrings"`
